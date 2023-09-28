@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Martian Mono", monospace;
+}
+
+body {
+  background-color: rgb(20, 20, 20);
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  background-color: rgb(200, 199, 199);
+  padding: 30px;
+  font-size: 2rem;
+  box-shadow: 0 0 20px 0 rgb(200, 199, 199);
+}
+
+header section {
+  margin-left: 150px;
+}
+
+.watch-container {
+  background-color: rgb(67, 67, 67);
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 500px;
+  height: 500px;
+  box-shadow: 0 0 10px 0 rgba(200, 200, 200, 0.475);
+  padding: 5rem;
+  border-radius: 0.5rem;
+}
+
+.watch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  font-size: 2.5rem;
+  background-color: rgb(200, 199, 199);
+  box-shadow: 0 0 10px 0 rgb(20, 20, 20);
+  border-radius: 20px;
+  padding: 2rem;
+  width: 350px;
+}
+
+.ms {
+  font-size: 1.2rem;
+  align-self: start;
+  padding-top: 1.5rem;
+  padding-left: 0.5rem;
+}
+
+.btn-container {
+  display: flex;
+  gap: 2rem;
+}
+
+.btn-container button {
+  padding: 0.5rem 2.5rem;
+  font-size: 2rem;
+  border-radius: 1rem;
+  border-style: none;
+  box-shadow: 0 0 15px 0 rgb(20, 20, 20);
+  color: rgb(20, 20, 20);
+}
+
+.btn-container button:hover {
+  cursor: pointer;
+  color: rgb(200, 199, 199);
+  background-color: rgb(20, 20, 20);
+}
+
+.btn-container button:active {
+  box-shadow: none;
+}
+
+footer {
+  margin-top: 100px;
+  justify-self: end;
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+footer p {
+  font-size: 1.2rem;
+}
+
+footer i {
+  color: white;
+}
